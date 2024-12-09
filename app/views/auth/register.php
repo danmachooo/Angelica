@@ -28,15 +28,39 @@
                             <form id="regForm" method="POST" action="<?=site_url('auth/register');?>">
                             <?php csrf_field(); ?>
                                 <div class="row mb-3">
-                                    <label for="username" class="col-md-4 col-form-label text-md-end">Username</label>
+                                    <label for="firstname" class="col-md-4 col-form-label text-md-end">First Name</label>
                                     <div class="col-md-6">
-                                        <input id="username" type="text" class="form-control " name="username" required>
+                                        <input id="firstname" type="text" class="form-control" name="firstname" required>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="lastname" class="col-md-4 col-form-label text-md-end">Last Name</label>
+                                    <div class="col-md-6">
+                                        <input id="lastname" type="text" class="form-control" name="lastname" required>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="address" class="col-md-4 col-form-label text-md-end">Address</label>
+                                    <div class="col-md-6">
+                                        <input id="address" type="text" class="form-control" name="address" required>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="birthday" class="col-md-4 col-form-label text-md-end">Birthday</label>
+                                    <div class="col-md-6">
+                                        <input id="birthday" type="date" class="form-control" name="birthday" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <label for="email" class="col-md-4 col-form-label text-md-end">Email Address</label>
                                     <div class="col-md-6">
-                                        <input id="email" type="email" class="form-control" name="email" value="" required>
+                                        <input id="email" type="email" class="form-control" name="email" required>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="contact_number" class="col-md-4 col-form-label text-md-end">Contact Number</label>
+                                    <div class="col-md-6">
+                                        <input id="contact_number" type="text" class="form-control" name="contact_number" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
@@ -47,7 +71,6 @@
                                 </div>
                                 <div class="row mb-3">
                                     <label for="password_confirmation" class="col-md-4 col-form-label text-md-end">Confirm Password</label>
-
                                     <div class="col-md-6">
                                         <input id="password_confirmation" type="password" class="form-control" name="password_confirmation" required>
                                     </div>
@@ -75,8 +98,22 @@
                 if(regForm.length) {
                     regForm.validate({
                         rules: {
+                            firstname: {
+                                required: true,
+                            },
+                            lastname: {
+                                required: true,
+                            },
+                            address: {
+                                required: true,
+                            },
                             email: {
                                 required: true,
+                                email: true
+                            },
+                            contact_number: {
+                                required: true,
+                                digits: true
                             },
                             password: {
                                 required: true,
@@ -84,28 +121,36 @@
                             },
                             password_confirmation: {
                                 required: true,
-                                minlength: 8
-                            },
-                            username: {
-                                required: true,
-                                minlength: 5,
-                                maxlength: 20
+                                minlength: 8,
+                                equalTo: "#password"
                             }
                         },
                         messages: {
+                            firstname: {
+                                required: "Please input your first name.",
+                            },
+                            lastname: {
+                                required: "Please input your last name.",
+                            },
+                            address: {
+                                required: "Please input your address.",
+                            },
                             email: {
-                                required: "Please input your email address.",                            
+                                required: "Please input your email address.",
+                                email: "Please enter a valid email address."
+                            },
+                            contact_number: {
+                                required: "Please input your contact number.",
+                                digits: "Please enter only numbers."
                             },
                             password: {
                                 required: "Please input your password",
-                                minlength: jQuery.validator.format("Password must be atleast {0} characters.")
+                                minlength: jQuery.validator.format("Password must be at least {0} characters.")
                             },
                             password_confirmation: {
-                                required: "Please input your password",
-                                minlength: jQuery.validator.format("Password must be atleast {0} characters.")
-                            },
-                            username: {
-                                required: "Please input your username.",                            
+                                required: "Please confirm your password",
+                                minlength: jQuery.validator.format("Password must be at least {0} characters."),
+                                equalTo: "Passwords do not match."
                             }
                         },
                     })

@@ -44,11 +44,23 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
 */
 
 $router->get('/', 'Auth');
-$router->get('/home', 'Home');
+$router->get('/home', 'Appointment::get_all_appointments_by_user');
 $router->group('/auth', function() use ($router){
     $router->match('/register', 'Auth::register', ['POST', 'GET']);
     $router->match('/login', 'Auth::login', ['POST', 'GET']);
     $router->get('/logout', 'Auth::logout');
     $router->match('/password-reset', 'Auth::password_reset', ['POST', 'GET']);
     $router->match('/set-new-password', 'Auth::set_new_password', ['POST', 'GET']);
+});
+
+//PATIENT ROUTES
+$router->group('/patient', function() use ($router){
+    $router->get('/appointments', 'Appointment::get_all_appointments_by_user');
+    $router->post('/book-appointment', 'Appointment::book_appointment');
+    $router->get('/invoices', 'Invoices::get_invoice_by_user');
+    $router->get('/invoices/{id}', 'Invoices::get_invoice_by_id');
+    $router->post('/create-invoice', 'Invoices::add_invoice');
+    $router->get('/services', 'Services::get_all_services_for_user');
+    $router->get('/profile', 'User::get_user');
+    $router->post('/update-profile', 'User::update_user');
 });

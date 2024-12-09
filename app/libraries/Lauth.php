@@ -71,11 +71,15 @@ class Lauth {
 	 * @param  string $usertype   Usertype
 	 * @return $this
 	 */
-	public function register($username, $email, $password, $email_token)
+	public function register($firstname, $lastname, $email, $address, $birthday, $contact_number, $password, $email_token)
 	{
 		$this->LAVA->db->transaction();
 		$data = array(
-			'username' => $username,
+			'firstname' => $firstname,
+			'lastname' => $lastname,
+			'birthday' => $birthday,
+			'contact_number' => $contact_number,
+			'address' => $address,
 			'password' => $this->passwordhash($password),
 			'email' => $email,
 			'email_token' => $email_token
@@ -180,19 +184,19 @@ class Lauth {
 	}
 
 	/**
-	 * Get Username
-	 * @return string Username from Session
+	 * Get email
+	 * @return string email from Session
 	 */
-	public function get_username($user_id)
+	public function get_email($user_id)
 	{
 		$row = $this->LAVA->db
 						->table('users')
-						->select('username')					
+						->select('email')					
     					->where('id', $user_id)
     					->limit(1)
     					->get();
     	if($row) {
-    		return html_escape($row['username']);
+    		return html_escape($row['email']);
     	}
 	}
 

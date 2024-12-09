@@ -55,13 +55,13 @@ if ( ! function_exists('get_user_id'))
 	}
 }
 
-if ( ! function_exists('get_username'))
+if ( ! function_exists('get_email'))
 {
-	//get username
-	function get_username($user_id) {
+	//get email
+	function get_email($user_id) {
 		$LAVA =& lava_instance();
 		$LAVA->call->library('lauth');
-		return $LAVA->lauth->get_username($user_id);
+		return $LAVA->lauth->get_email($user_id);
 	}
 }
 

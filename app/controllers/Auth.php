@@ -39,16 +39,29 @@ class Auth extends Controller {
     public function register() {
 
         if($this->form_validation->submitted()) {
-            $username = $this->io->post('username');
+            $firstname = $this->io->post('firstname');
+            $lastname = $this->io->post('lastname');
+            $address = $this->io->post('address');
+            $birthday = $this->io->post('birthday');
+            $contact_number = $this->io->post('contact_number');
             $email = $this->io->post('email');
 			$email_token = bin2hex(random_bytes(50));
             $this->form_validation
-                ->name('username')
+                ->name('firstname')
                     ->required()
-                    ->is_unique('users', 'username', $username, 'Username was already taken.')
-                    ->min_length(5, 'Username name must not be less than 5 characters.')
-                    ->max_length(20, 'Username name must not be more than 20 characters.')
-                    ->alpha_numeric_dash('Special characters are not allowed in username.')
+                    ->max_length(20, 'Firstname name must not be more than 20 characters.')
+                    ->alpha_numeric_dash('Special characters are not allowed in firstname.')
+                ->name('lastname')
+                    ->required()
+                    ->max_length(20, 'Lastname name must not be more than 20 characters.')
+                    ->alpha_numeric_dash('Special characters are not allowed in lastname.')
+                ->name('address')
+                    ->required()
+                    ->max_length(50, 'Address must not be more than 50 characters.')
+                ->name('birthday')
+                    ->required()
+                ->name('contact_number')
+                    ->required()
                 ->name('password')
                     ->required()
                     //->min_length(8, 'Password must not be less than 8 characters.')
@@ -60,7 +73,7 @@ class Auth extends Controller {
                     ->required()
                     ->is_unique('users', 'email', $email, 'Email was already taken.');
                 if($this->form_validation->run()) {
-                    if($this->lauth->register($username, $email, $this->io->post('password'), $email_token)) {
+                    if($this->lauth->register($firstname, $lastname, $email, $address, $birthday, $contact_number, $this->io->post('password'), $email_token)) {
                         $data = $this->lauth->login($email, $this->io->post('password'));
                         $this->lauth->set_logged_in($data);
                         redirect('home');

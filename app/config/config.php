@@ -90,7 +90,7 @@ $config['base_url'] 				= 'http://localhost:8080/';
 | variable to blank.
 |
 */
-$config['index_page']               = 'index.php';
+$config['index_page']               = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -105,7 +105,7 @@ $config['index_page']               = 'index.php';
 |   3 = All
 |
 */
-$config['log_threshold']            = 0;
+$config['log_threshold']            = 3;
 $config['log_dir']                  = 'runtime/logs/';
 
 /*
@@ -128,7 +128,7 @@ $config['log_dir']                  = 'runtime/logs/';
 | Note: This will NOT disable or override the LavaLust-specific
 |	autoloading (app/config/autoload.php)
 */
-$config['composer_autoload']        = FALSE;
+$config['composer_autoload']        = TRUE;
 
 /*
 |--------------------------------------------------------------------------

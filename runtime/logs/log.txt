@@ -1,0 +1,903 @@
+Date: 09/12/2024 13:34:52
+Exception Class: Error
+Error Message: Class "Service_model" not found
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Routine.php
+Line Number: 75
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:35:17
+Exception Class: PDOException
+Error Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'deleted_at' in 'where clause'<div style="background-color:#000;color:#fff;padding:15px">Query: SELECT * FROM services WHERE deleted_at = ?</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 1141
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:35:18
+Exception Class: PDOException
+Error Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'deleted_at' in 'where clause'<div style="background-color:#000;color:#fff;padding:15px">Query: SELECT * FROM services WHERE deleted_at = ?</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 1141
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:36:36
+Exception Class: RuntimeException
+Error Message: admin/services view file did not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Invoker.php
+Line Number: 185
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:36:37
+Exception Class: RuntimeException
+Error Message: admin/services view file did not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Invoker.php
+Line Number: 185
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:36:37
+Exception Class: RuntimeException
+Error Message: admin/services view file did not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Invoker.php
+Line Number: 185
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:39:10
+Exception Class: 2
+Error Message: Undefined variable $user_id
+Filename: C:\Users\UGH\Desktop\Appointment System\app\models\Invoices_model.php
+Line Number: 11
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:39:47
+Exception Class: 2
+Error Message: Undefined variable $user_id
+Filename: C:\Users\UGH\Desktop\Appointment System\app\models\Invoices_model.php
+Line Number: 11
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:44:51
+Exception Class: RuntimeException
+Error Message: Method User::get_all_services_for_user is inaccessible or nonexistent.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 220
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:45:11
+Exception Class: 2
+Error Message: Undefined variable $user_id
+Filename: C:\Users\UGH\Desktop\Appointment System\app\models\Invoices_model.php
+Line Number: 11
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:46:09
+Exception Class: Error
+Error Message: Call to undefined method Invoices_model::get_invoice_by_id()
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\Invoices.php
+Line Number: 15
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:46:09
+Exception Class: Error
+Error Message: Call to undefined method Invoices_model::get_invoice_by_id()
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\Invoices.php
+Line Number: 15
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:46:09
+Exception Class: Error
+Error Message: Call to undefined method Invoices_model::get_invoice_by_id()
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\Invoices.php
+Line Number: 15
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:46:32
+Exception Class: RuntimeException
+Error Message: patient/invoice view file did not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Invoker.php
+Line Number: 185
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:46:32
+Exception Class: RuntimeException
+Error Message: patient/invoice view file did not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Invoker.php
+Line Number: 185
+------------------------------------------------------------------
+
+Date: 09/12/2024 13:46:33
+Exception Class: RuntimeException
+Error Message: patient/invoice view file did not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Invoker.php
+Line Number: 185
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:06:21
+Exception Class: 2
+Error Message: Undefined variable $services
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\appointments.php
+Line Number: 61
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:06:27
+Exception Class: 2
+Error Message: Undefined variable $services
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\appointments.php
+Line Number: 61
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:11:54
+Exception Class: Error
+Error Message: Call to undefined method Services_model::get_all_services_for_user()
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\Appointment.php
+Line Number: 79
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:11:55
+Exception Class: Error
+Error Message: Call to undefined method Services_model::get_all_services_for_user()
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\Appointment.php
+Line Number: 79
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:13:02
+Exception Class: 2
+Error Message: Undefined variable $appointments
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\appointments.php
+Line Number: 19
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:13:02
+Exception Class: 2
+Error Message: Undefined variable $appointments
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\appointments.php
+Line Number: 19
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:13:03
+Exception Class: 2
+Error Message: Undefined variable $appointments
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\appointments.php
+Line Number: 19
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:25:36
+Exception Class: ParseError
+Error Message: syntax error, unexpected token "foreach"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\appointments.php
+Line Number: 19
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:27:49
+Exception Class: 2
+Error Message: Undefined variable $app
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\appointments.php
+Line Number: 23
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:31:56
+Exception Class: 2
+Error Message: Undefined array key "name"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\appointments.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:37:18
+Exception Class: PDOException
+Error Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.status' in 'field list'<div style="background-color:#000;color:#fff;padding:15px">Query: SELECT a.id AS appointment_id, a.appointment_date, a.status, u.firstname, u.lastname, s.name AS service_name, s.price AS service_price, s.duration AS service_duration FROM appointments as a JOIN users as u ON a.user_id = u.id JOIN services as s ON a.service_id = s.id WHERE a.user_id = ?</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 1141
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:37:19
+Exception Class: PDOException
+Error Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.status' in 'field list'<div style="background-color:#000;color:#fff;padding:15px">Query: SELECT a.id AS appointment_id, a.appointment_date, a.status, u.firstname, u.lastname, s.name AS service_name, s.price AS service_price, s.duration AS service_duration FROM appointments as a JOIN users as u ON a.user_id = u.id JOIN services as s ON a.service_id = s.id WHERE a.user_id = ?</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 1141
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:39:37
+Exception Class: PDOException
+Error Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.status' in 'field list'
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 249
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:39:38
+Exception Class: PDOException
+Error Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.status' in 'field list'
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 249
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:42:34
+Exception Class: Error
+Error Message: Call to undefined method PDOStatement::get_all()
+Filename: C:\Users\UGH\Desktop\Appointment System\app\models\Appointment_model.php
+Line Number: 41
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:42:35
+Exception Class: Error
+Error Message: Call to undefined method PDOStatement::get_all()
+Filename: C:\Users\UGH\Desktop\Appointment System\app\models\Appointment_model.php
+Line Number: 41
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:49:08
+Exception Class: Error
+Error Message: Call to undefined function get_username()
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\templates\nav.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:49:12
+Exception Class: Error
+Error Message: Call to undefined function get_username()
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\templates\nav.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 09/12/2024 14:52:14
+Exception Class: Error
+Error Message: Call to undefined function get_username()
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\templates\nav.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:01:09
+Exception Class: 2
+Error Message: Undefined variable $invoices
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 13
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:01:16
+Exception Class: 2
+Error Message: Undefined variable $invoices
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 13
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:01:20
+Exception Class: 2
+Error Message: Undefined variable $invoices
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 13
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:23:53
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 24
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:27:17
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 24
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:27:18
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 24
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:27:18
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 24
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:28:43
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 24
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:28:43
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 24
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:28:43
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 24
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:29:29
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:29:35
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:29:35
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:29:36
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:29:44
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:29:44
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:29:45
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:30:24
+Exception Class: 2
+Error Message: Undefined array key "service_name"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:30:24
+Exception Class: 2
+Error Message: Undefined array key "service_name"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:30:24
+Exception Class: 2
+Error Message: Undefined array key "service_name"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:31:17
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:31:17
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:31:17
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:31:18
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:31:18
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:31:48
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:31:48
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:31:48
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:31:48
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:31:52
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:32:03
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:32:03
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:32:04
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:32:51
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:32:51
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:33:09
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:33:09
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:33:09
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:33:32
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:33:32
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:33:32
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:33:33
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:33:34
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:33:34
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:33:34
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:34:04
+Exception Class: 2
+Error Message: Array to string conversion
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 14
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:34:04
+Exception Class: 2
+Error Message: Array to string conversion
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 14
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:34:08
+Exception Class: 2
+Error Message: Array to string conversion
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 14
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:34:08
+Exception Class: 2
+Error Message: Array to string conversion
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 14
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:34:15
+Exception Class: 2
+Error Message: Undefined array key "appointment_date"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:34:30
+Exception Class: 2
+Error Message: Undefined array key "service_name"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 29
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:34:30
+Exception Class: 2
+Error Message: Undefined array key "service_name"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 29
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:34:30
+Exception Class: 2
+Error Message: Undefined array key "service_name"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 29
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:36:07
+Exception Class: PDOException
+Error Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.appointment_date' in 'field list'<div style="background-color:#000;color:#fff;padding:15px">Query: SELECT i.id AS invoice_id, a.appointment_date, u.firstname, u.lastname, s.name AS service_name, s.price AS service_price, s.duration AS service_duration, i.issue_date FROM invoices as i JOIN users as u ON i.user_id = u.id JOIN services s ON i.service_id = s.id WHERE i.user_id = ?</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 1141
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:36:07
+Exception Class: PDOException
+Error Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.appointment_date' in 'field list'<div style="background-color:#000;color:#fff;padding:15px">Query: SELECT i.id AS invoice_id, a.appointment_date, u.firstname, u.lastname, s.name AS service_name, s.price AS service_price, s.duration AS service_duration, i.issue_date FROM invoices as i JOIN users as u ON i.user_id = u.id JOIN services s ON i.service_id = s.id WHERE i.user_id = ?</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 1141
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:36:28
+Exception Class: 2
+Error Message: Undefined array key "id"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 18
+------------------------------------------------------------------
+
+Date: 09/12/2024 15:55:05
+Exception Class: PDOException
+Error Message: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous<div style="background-color:#000;color:#fff;padding:15px">Query: SELECT i.id AS invoice_id, a.appointment_date, u.firstname, u.lastname, s.name AS service_name, s.price AS service_price, s.duration AS service_duration, i.issue_date FROM invoices as i JOIN users as u ON i.user_id = u.id JOIN appointments as a ON a.user_id = u.id JOIN services as s ON i.service_id = s.id WHERE i.user_id = ? AND id = ?</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 1122
+------------------------------------------------------------------
+
+Date: 09/12/2024 16:02:19
+Exception Class: 2
+Error Message: Undefined array key "service_id"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 16:05:33
+Exception Class: 2
+Error Message: Undefined array key "service_id"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 16:10:03
+Exception Class: 2
+Error Message: Undefined array key "service_id"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 16:11:07
+Exception Class: 2
+Error Message: Undefined array key "service_id"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 16:12:07
+Exception Class: 2
+Error Message: Undefined array key "service_id"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 16:25:42
+Exception Class: 2
+Error Message: Trying to access array offset on value of type int
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 17
+------------------------------------------------------------------
+
+Date: 09/12/2024 16:25:43
+Exception Class: 2
+Error Message: Trying to access array offset on value of type int
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\invoices.php
+Line Number: 17
+------------------------------------------------------------------
+
+Date: 09/12/2024 16:26:40
+Exception Class: PDOException
+Error Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.service_id' in 'on clause'<div style="background-color:#000;color:#fff;padding:15px">Query: SELECT i.id AS invoice_id, a.appointment_date, u.firstname, u.lastname, s.name AS service_name, s.price AS service_price, s.duration AS service_duration, i.issue_date FROM invoices as i JOIN users as u ON i.user_id = u.id JOIN appointments as a ON a.user_id = u.id JOIN services s ON s.service_id = i.id WHERE i.user_id = ?</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 1141
+------------------------------------------------------------------
+
+Date: 09/12/2024 16:37:17
+Exception Class: PDOException
+Error Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'amount' in 'field list'<div style="background-color:#000;color:#fff;padding:15px">Query: SELECT amount FROM services WHERE id = ?</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 1122
+------------------------------------------------------------------
+
+Date: 09/12/2024 17:01:20
+Exception Class: 2
+Error Message: Undefined array key "name"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\models\Invoices_model.php
+Line Number: 32
+------------------------------------------------------------------
+
+Date: 09/12/2024 17:01:41
+Exception Class: 2
+Error Message: Undefined array key "name"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\models\Invoices_model.php
+Line Number: 32
+------------------------------------------------------------------
+
+Date: 09/12/2024 17:05:03
+Exception Class: 2
+Error Message: Undefined array key "name"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\models\Invoices_model.php
+Line Number: 32
+------------------------------------------------------------------
+
+Date: 09/12/2024 17:13:36
+Exception Class: PDOException
+Error Message: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`appointment_system_db`.`invoices`, CONSTRAINT `invoices_ibfk_3` FOREIGN KEY (`service_id`) REFERENCES `services` (`id`) ON DELETE CASCADE)<div style="background-color:#000;color:#fff;padding:15px">Query: INSERT INTO invoices (appointment_id, service_id, user_id) VALUES (?, ?, ?)</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 273
+------------------------------------------------------------------
+
+Date: 09/12/2024 17:48:51
+Exception Class: ArgumentCountError
+Error Message: Too few arguments to function User::update_user(), 0 passed in C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php on line 218 and exactly 1 expected
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\User.php
+Line Number: 19
+------------------------------------------------------------------
+
+Date: 09/12/2024 17:49:02
+Exception Class: ArgumentCountError
+Error Message: Too few arguments to function User::update_user(), 0 passed in C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php on line 218 and exactly 1 expected
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\User.php
+Line Number: 19
+------------------------------------------------------------------
+
+Date: 09/12/2024 17:49:34
+Exception Class: ArgumentCountError
+Error Message: Too few arguments to function User::update_user(), 0 passed in C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php on line 218 and exactly 1 expected
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\User.php
+Line Number: 19
+------------------------------------------------------------------
+
+Date: 09/12/2024 17:52:35
+Exception Class: ArgumentCountError
+Error Message: Too few arguments to function User::update_user(), 0 passed in C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php on line 218 and exactly 1 expected
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\User.php
+Line Number: 30
+------------------------------------------------------------------
+
+Date: 09/12/2024 17:54:26
+Exception Class: 2
+Error Message: Undefined array key "firstname"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 17:55:47
+Exception Class: 2
+Error Message: Undefined array key "firstname"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 17:56:55
+Exception Class: 2
+Error Message: Undefined array key "firstname"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 17:58:22
+Exception Class: 2
+Error Message: Undefined array key "firstname"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:01:11
+Exception Class: 2
+Error Message: Undefined array key "firstname"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:07:09
+Exception Class: 2
+Error Message: Undefined array key "firstname"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:07:24
+Exception Class: 2
+Error Message: Undefined array key "firstname"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:09:19
+Exception Class: 2
+Error Message: Undefined array key "firstname"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:09:23
+Exception Class: 2
+Error Message: Undefined array key "firstname"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:10:44
+Exception Class: 2
+Error Message: Undefined array key "firstname"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:11:31
+Exception Class: 2
+Error Message: Undefined array key "firstname"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:11:39
+Exception Class: 2
+Error Message: Undefined array key "firstname"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:16:16
+Exception Class: 2
+Error Message: Undefined array key "firstname"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:18:12
+Exception Class: 2
+Error Message: Undefined array key "firstname"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:19:01
+Exception Class: 2
+Error Message: Undefined array key "firstName"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:22:15
+Exception Class: Error
+Error Message: Call to a member function where() on int
+Filename: C:\Users\UGH\Desktop\Appointment System\app\models\User_model.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:25:14
+Exception Class: Error
+Error Message: Call to a member function where() on int
+Filename: C:\Users\UGH\Desktop\Appointment System\app\models\User_model.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:25:57
+Exception Class: Error
+Error Message: Call to a member function where() on int
+Filename: C:\Users\UGH\Desktop\Appointment System\app\models\User_model.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 09/12/2024 18:27:11
+Exception Class: Error
+Error Message: Call to a member function where() on int
+Filename: C:\Users\UGH\Desktop\Appointment System\app\models\User_model.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 09/12/2024 19:03:58
+Exception Class: 2
+Error Message: Undefined array key "birthday"
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
+Line Number: 125
+------------------------------------------------------------------
+
