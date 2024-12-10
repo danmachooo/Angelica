@@ -901,3 +901,787 @@ Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Io.php
 Line Number: 125
 ------------------------------------------------------------------
 
+Date: 10/12/2024 3:44:22
+Exception Class: PDOException
+Error Message: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 220
+------------------------------------------------------------------
+
+Date: 10/12/2024 3:52:10
+Exception Class: ParseError
+Error Message: syntax error, unexpected token "}"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\Auth.php
+Line Number: 89
+------------------------------------------------------------------
+
+Date: 10/12/2024 3:52:10
+Exception Class: ParseError
+Error Message: syntax error, unexpected token "}"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\Auth.php
+Line Number: 89
+------------------------------------------------------------------
+
+Date: 10/12/2024 3:58:16
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 3:58:57
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 3:58:57
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 3:59:36
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 3:59:37
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 3:59:37
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 3:59:59
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:04:45
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:06:22
+Exception Class: 2
+Error Message: foreach() argument must be of type array|object, bool given
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 19
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:06:23
+Exception Class: 2
+Error Message: foreach() argument must be of type array|object, bool given
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 19
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:07:50
+Exception Class: 2
+Error Message: Trying to access array offset on value of type int
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 27
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:07:51
+Exception Class: 2
+Error Message: Trying to access array offset on value of type int
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 27
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:07:51
+Exception Class: 2
+Error Message: Trying to access array offset on value of type int
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 27
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:08:38
+Exception Class: 2
+Error Message: foreach() argument must be of type array|object, bool given
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 19
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:08:38
+Exception Class: 2
+Error Message: foreach() argument must be of type array|object, bool given
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 19
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:10:01
+Exception Class: 2
+Error Message: foreach() argument must be of type array|object, bool given
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 19
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:10:01
+Exception Class: 2
+Error Message: foreach() argument must be of type array|object, bool given
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 19
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:12:32
+Exception Class: 2
+Error Message: foreach() argument must be of type array|object, bool given
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 19
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:12:53
+Exception Class: 2
+Error Message: Undefined variable $row
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:12:53
+Exception Class: 2
+Error Message: Undefined variable $row
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:13:01
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:13:02
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:13:02
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:13:10
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:13:10
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:13:10
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:13:15
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:13:18
+Exception Class: 64
+Error Message: Cannot use [] for reading
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:13:19
+Exception Class: 64
+Error Message: Cannot use [] for reading
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:13:35
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:13:35
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:13:36
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 10/12/2024 4:13:36
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:15:52
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:15:56
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:23:36
+Exception Class: RuntimeException
+Error Message: Controller Dashoard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:23:43
+Exception Class: RuntimeException
+Error Message: Controller Dashoard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:23:48
+Exception Class: 2
+Error Message: Undefined variable $row
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 64
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:29:51
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:30:12
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:30:12
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:30:59
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:31:02
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:32:57
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:34:20
+Exception Class: PDOException
+Error Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null<div style="background-color:#000;color:#fff;padding:15px">Query: INSERT INTO sessions (user_id, browser, ip, session_data) VALUES (?, ?, ?, ?)</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 273
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:35:57
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:38:07
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:39:47
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:39:59
+Exception Class: PDOException
+Error Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null<div style="background-color:#000;color:#fff;padding:15px">Query: INSERT INTO sessions (user_id, browser, ip, session_data) VALUES (?, ?, ?, ?)</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 273
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:40:25
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:40:42
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:41:08
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:42:01
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:43:06
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:44:01
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:44:16
+Exception Class: PDOException
+Error Message: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null<div style="background-color:#000;color:#fff;padding:15px">Query: INSERT INTO sessions (user_id, browser, ip, session_data) VALUES (?, ?, ?, ?)</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 273
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:44:21
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:46:05
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:47:11
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:48:14
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:49:56
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:50:15
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:50:19
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:53:07
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:54:20
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\Auth.php
+Line Number: 29
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:57:26
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:57:35
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 5:58:01
+Exception Class: 2
+Error Message: Trying to access array offset on value of type bool
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\patient\profile.php
+Line Number: 25
+------------------------------------------------------------------
+
+Date: 10/12/2024 6:12:17
+Exception Class: ParseError
+Error Message: syntax error, unexpected token "}"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\Auth.php
+Line Number: 168
+------------------------------------------------------------------
+
+Date: 10/12/2024 6:21:05
+Exception Class: RuntimeException
+Error Message: Controller Dashoard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 6:41:41
+Exception Class: 2
+Error Message: Undefined array key "JPACM_id"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\admin\users.php
+Line Number: 34
+------------------------------------------------------------------
+
+Date: 10/12/2024 6:41:42
+Exception Class: 2
+Error Message: Undefined array key "JPACM_id"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\views\admin\users.php
+Line Number: 34
+------------------------------------------------------------------
+
+Date: 10/12/2024 6:45:07
+Exception Class: Error
+Error Message: Call to undefined method Services_model::add_services()
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\Services.php
+Line Number: 21
+------------------------------------------------------------------
+
+Date: 10/12/2024 6:57:46
+Exception Class: 2
+Error Message: Undefined array key "user"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\User.php
+Line Number: 23
+------------------------------------------------------------------
+
+Date: 10/12/2024 6:57:49
+Exception Class: 2
+Error Message: Undefined array key "user"
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\User.php
+Line Number: 23
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:10:10
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:10:11
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:10:13
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:10:14
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:10:41
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:11:00
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:11:08
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:11:20
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:11:21
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:11:44
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:12:08
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:12:25
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:12:26
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:12:58
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:12:59
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:13:37
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:13:43
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:13:43
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:14:28
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:14:33
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:14:36
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:15:04
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:15:04
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:16:01
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:16:02
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:16:39
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:16:40
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:16:55
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:17:01
+Exception Class: RuntimeException
+Error Message: Controller Dashbboard_controller does not exist.
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\kernel\Router.php
+Line Number: 294
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:17:49
+Exception Class: Error
+Error Message: Call to undefined method Dashboard_model::top_services()
+Filename: C:\Users\UGH\Desktop\Appointment System\app\controllers\Dashboard.php
+Line Number: 26
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:18:34
+Exception Class: PDOException
+Error Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.service_name' in 'field list'<div style="background-color:#000;color:#fff;padding:15px">Query: SELECT s.service_name, COUNT(a.appointment_id) as booking_count FROM services as s JOIN appointments as a ON a.service_id = s.service_id GROUP BY s.service_id, s.service_name ORDER BY booking_count DESC LIMIT 3</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 1141
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:19:19
+Exception Class: PDOException
+Error Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.appointment_id' in 'field list'<div style="background-color:#000;color:#fff;padding:15px">Query: SELECT s.name, COUNT(a.appointment_id) as booking_count FROM services as s JOIN appointments as a ON a.service_id = s.service_id GROUP BY s.service_id, s.name ORDER BY booking_count DESC LIMIT 3</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 1141
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:19:30
+Exception Class: PDOException
+Error Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.appointment_id' in 'field list'<div style="background-color:#000;color:#fff;padding:15px">Query: SELECT s.name, COUNT(a.appointment_id) as booking_count FROM services as s JOIN appointments as a ON a.service_id = s.id GROUP BY s.service_id, s.name ORDER BY booking_count DESC LIMIT 3</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 1141
+------------------------------------------------------------------
+
+Date: 10/12/2024 7:20:07
+Exception Class: PDOException
+Error Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.service_id' in 'group statement'<div style="background-color:#000;color:#fff;padding:15px">Query: SELECT s.name, COUNT(a.id) as booking_count FROM services as s JOIN appointments as a ON a.service_id = s.id GROUP BY s.service_id, s.name ORDER BY booking_count DESC LIMIT 3</div>
+Filename: C:\Users\UGH\Desktop\Appointment System\scheme\database\Database.php
+Line Number: 1141
+------------------------------------------------------------------
+

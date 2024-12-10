@@ -64,3 +64,16 @@ $router->group('/patient', function() use ($router){
     $router->get('/profile', 'User::get_user');
     $router->post('/update-profile', 'User::update_user');
 });
+
+$router->group('/admin', function() use ($router){
+    $router->get('/dashboard', 'Dashboard::dashboard');
+    $router->get('/count-users', 'Dashboard::count_users');
+    $router->get('/top-services', 'Dashboard::top_services');
+    $router->get('/count-appointments', 'Dashboard::count_appointments');
+    $router->get('/services', 'Services::get_all_services_for_admin');
+    $router->post('/services/add-service', 'Services::add_service');
+    $router->get('/users', 'User::get_all_users');
+    $router->get('/get-user/{id}', 'User::get_user_for_admin');
+    $router->get('/update-user/{id}', 'User::update_user_for_admin');
+
+});

@@ -26,12 +26,17 @@ class User_model extends Model {
         return $this->db->table('users')->where('id', $id)->update($bind);
     }
 
-    public function change_user_pass($id, $data) {
+    public function update_user_for_admin($id, $data) {
         $bind = array(
-            'password' => $data['password']
+            'firstname' => $data['firstname'],
+            'lastname' => $data['lastname'],
+            'address' => $data['address'],
+            'birthday' => $data['birthday'],
+            'contact_number' => $data['contact_number'],
         );
         return $this->db->table('users')->where('id', $id)->update($bind);
     }
+
 
     
 }

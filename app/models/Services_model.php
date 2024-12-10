@@ -17,7 +17,7 @@ class Services_model extends Model {
         return $this->db->table($this->table)->where('id', $id)->get();
     }
 
-    public function add_services($data) {
+    public function add_service($data) {
         $bind = array(
             'name' => $data['name'],
             'price' => $data['price'],

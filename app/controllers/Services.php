@@ -10,15 +10,15 @@ class Services extends Controller {
         $this->user_id = $this->session->userdata('user_id');;
         $this->call->model('Services_model', 'service');
     }
-    public function add_services() {
+    public function add_service() {
         $data = array(
-            'name' => $this->io->post('name'),
+            'name' => $this->io->post('serviceName'),
             'price' => $this->io->post('price'),
             'duration' => $this->io->post('duration'),
             'description' => $this->io->post('description')
         );
 
-        if($this->service->add_services($data)) {
+        if($this->service->add_service($data)) {
             echo json_encode(['success' => true, 'message' => 'Service has been added!']);
         } else {
             echo json_encode(['success' => false, 'message' => 'Failed to add an service']);

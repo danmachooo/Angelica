@@ -1,26 +1,14 @@
-<nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-    <div class="container">
-        <a class="navbar-brand" href="<?=site_url();?>">
-            Appointment System
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Left Side Of Navbar -->
-            <ul class="navbar-nav me-auto">
-                
-            </ul>
-            <!-- Right Side Of Navbar -->
-            <ul class="navbar-nav ms-auto">
-                <!-- Authentication Links -->
-                <li class="nav-item">
-                    <a class="nav-link" href="<?=site_url('auth/login');?>">Login</a>
-                </li>                       
-                <li class="nav-item">
-                    <a class="nav-link" href="<?=site_url('auth/register');?>">Register</a>
-                </li>
-            </ul>
+<nav class="bg-indigo-700 shadow-sm">
+    <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+            <a href="/" class="text-2xl font-bold text-white flex items-center">
+                <i class="fas text-white fa-user-circle mr-2"></i>
+                Appointment System
+            </a>
+            <div class="space-x-4">
+                <a href="<?=site_url('auth/login')?>" class="text-white hover:font-bold transition-colors">Login</a>
+                <a href="<?=site_url('auth/register')?>" class="text-white hover:font-bold transition-colors">Register</a>
+            </div>
         </div>
     </div>
 </nav>

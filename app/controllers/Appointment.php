@@ -72,7 +72,7 @@ class Appointment extends Controller {
     }
 
     public function get_all_appointments_by_user() {
-        $data['appointments'] = $this->appointment->get_all_appointments_by_user(1);
+        $data['appointments'] = $this->appointment->get_all_appointments_by_user($this->user_id);
         $data['services'] = $this->service->get_all_services();
         $this->call->view('patient/appointments', $data);
     }

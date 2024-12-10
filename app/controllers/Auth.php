@@ -19,21 +19,29 @@ class Auth extends Controller {
     }  
 
     public function login() {
+
+
         if($this->form_validation->submitted()) {
             $email = $this->io->post('email');
 			$password = $this->io->post('password');
             $data = $this->lauth->login($email, $password);
-            if(empty($data)) {
-				$this->session->set_flashdata(['is_invalid' => 'is-invalid']);
-                $this->session->set_flashdata(['err_message' => 'These credentials do not match our records.']);
-			} else {
-				$this->lauth->set_logged_in($data);
-			}
-            redirect('auth/login');
+            if($this->form_validation->run()) {
+                if($this->lauth->login($email, $password)) {
+                    $this->lauth->set_logged_in($data);
+                    if($email === 'admin@admin.com') {
+                        echo json_encode(['success' => true, 'message' => $data, 'role' => 'admin']);
+                    } else {
+                        echo json_encode(['success' => true, 'message' => $data]);
+                    }
+                } else {
+                    echo json_encode(['success' => false, 'message' => $data]);
+                }
+            }  else {
+                echo json_encode(['success' => true, 'message' => $this->form_validation->errors()]);
+            }
         } else {
             $this->call->view('auth/login');
         }
-        
     }
 
     public function register() {
@@ -76,7 +84,7 @@ class Auth extends Controller {
                     if($this->lauth->register($firstname, $lastname, $email, $address, $birthday, $contact_number, $this->io->post('password'), $email_token)) {
                         $data = $this->lauth->login($email, $this->io->post('password'));
                         $this->lauth->set_logged_in($data);
-                        redirect('home');
+                        echo json_encode(['success' => true, 'message' => 'You are register']);
                     } else {
                         set_flash_alert('danger', config_item('SQLError'));
                     }
